@@ -7,19 +7,30 @@
     <title>Welcome to my quote generator</title>
 </head>
 <body>
+<div class="container">
     <header>
         <h1>Welcome to the AI Shakespeare(ish) Poem Generator</h1>
     </header>
+
     <main>
+       <section class="grid grid-2-columns">
+        <div>
+            <img src="images/william shakespeare.png">
+        </div>
+
+        <div>
+            <h2>Enter a subject, and AI Shakespeare will write you a brief poem!</h2>
         <form>
             <input type="text" placeholder="Enter the subject of the poem" autofocus required autocomplete="off">
+        </br></br>
             <input type="submit">
         </form>
         <div id="poem">
             The poem will go here
         </div>
+    </section>
+        
     </main>
-
 
 
 
@@ -29,6 +40,7 @@
         and hosted <a href="https://kellyokeefe-ai-quote-generator.netlify.app/" target="_blank" title="Launch project">on Netlify.</a>
     </footer>
     </div>
+</div>
 <script src="src/index.js"></script>
 </body>
 </html>
