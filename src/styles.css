@@ -2,17 +2,24 @@
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: #FCF8F5;
     padding: 20px;
     border-radius: 5px;
+    margin-top: 30px;
 }
 
-h1, h2 {
+h1 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36px;
+}
+
+h2 {
     text-align: center;
 }
 
 img {
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -25,8 +32,15 @@ img {
 footer {
     text-align: center;
     padding: 25px;
+    font-size: 18px;
 }
 
 form {
     text-align: center;
+    padding-top: 30px;
+}
+
+#poem {
+    text-align: center;
+    padding-top: 30px;
 }
