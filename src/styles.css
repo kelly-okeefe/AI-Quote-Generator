@@ -3,8 +3,8 @@
     margin: 0 auto;
     background-color: #FCF8F5;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 20px rgba(8, 61, 119, 0.1);
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(56, 78, 119, 0.1);
     margin-top: 30px;
 }
 
@@ -16,18 +16,18 @@ h1 {
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     font-size: 36px;
-    color: #2e4057;
+    color: #18314F;
 }
 
 img {
-    max-width: 320px;
+    max-width: 250px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 footer {
@@ -46,23 +46,23 @@ form {
     padding: 16px;
     border: 1px solid rgba(39, 33, 66, 0.5);
     width: 80%;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 15px;
 }
 
 .submit-button {
     padding: 15px 20px;
     width: 150px;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 10px;
     border-radius: 15px;
-    background-color: #2e4057;
+    background-color: #18314F;
     color: white;
     border: none;
 }
 
 .submit-button:hover {
-    background-color: #083d77;
+    background-color: #384E77;
     cursor: pointer;
     transition: 2ms ease-in-out;
 }
@@ -71,8 +71,7 @@ form {
     text-align: center;
     padding: 20px;
     padding-top: 30px;
-    font-size: 18px;
-    background-color: white;
+    font-size: 22px;
     border-radius: 5px;
     line-height: 1.5;
 }
