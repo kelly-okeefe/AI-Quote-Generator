@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@
 
         <div>
         <form id="poem-generator-form">
-            <input type="text" placeholder="Enter poem topic" autofocus required autocomplete="off" class="instructions">
+            <input type="text" placeholder="Enter poem topic" autofocus required autocomplete="off" class="instructions" id="user-instructions">
         </br></br>
             <input type="submit" class="submit-button">
         </form>
