@@ -3,7 +3,7 @@
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
     background-color: #FCF8F5;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     box-shadow: 10px 10px 20px rgba(56, 78, 119, 0.1);
     margin-top: 30px;
@@ -17,12 +17,11 @@ h1 {
     text-align: center;
     font-size: 36px;
     color: #18314F;
-    margin-bottom: 0;
 }
 
 img {
     display: block;
-    max-width: 280px;
+    max-width: 300px;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -67,20 +66,17 @@ footer {
 
 .poem {
     text-align: center;
-    color: #18314F;
+    color: #384E77;
     padding: 15px;
     font-size: 22px;
     font-weight: 600;
     border-radius: 5px;
     line-height: 1.5;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 
 .hidden {
     display: none;
 }
-
 
 @keyframes blink-animation {
     to {
