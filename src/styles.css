@@ -27,16 +27,16 @@ img {
     padding-bottom: 20px;
 }
 
-footer {
-    text-align: center;
-    padding: 25px;
-    font-size: 18px;
-}
-
 form {
     text-align: center;
     padding: 30px;
     display: flex;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
 }
 
 .instructions {
@@ -75,4 +75,19 @@ form {
 
 .hidden {
     display: none;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+.generating {
+    animation: blink-animation 1s steps(5, start) infinite;
 }
