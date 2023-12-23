@@ -3,6 +3,9 @@ function displayPoem(response) {
   let mainImage = document.querySelector("img");
   mainImage.classList.add("hidden");
 
+  let loadedPoem = document.querySelector(".poem");
+  loadedPoem.classList.add("poem");
+
     new Typewriter('#poem', {
         strings: response.data.answer,
         autoStart: true,
