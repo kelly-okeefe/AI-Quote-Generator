@@ -1,6 +1,7 @@
 .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
     background-color: #FCF8F5;
     padding: 20px;
     border-radius: 15px;
@@ -9,25 +10,21 @@
 }
 
 header {
-    margin-bottom: 30px;
+    margin-bottom: -20px;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Kaushan Script', cursive;
     font-size: 36px;
     color: #18314F;
+    margin-bottom: 0;
 }
 
 img {
-    max-width: 250px;
+    display: block;
+    max-width: 280px;
     margin: 0 auto;
-    padding: 20px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -74,4 +71,8 @@ form {
     font-size: 22px;
     border-radius: 5px;
     line-height: 1.5;
+}
+
+.hidden {
+    display: none;
 }

@@ -7,32 +7,23 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles.css">
-    <title>Welcome to my quote generator</title>
+    <title>AI Shakespeare poem generator</title>
 </head>
 <body>
 <div class="container">
     <header>
-        <h1>Welcome to the AI Shakespeare-y Poem Generator</h1>
+        <h1>Welcome to the AI</br>Shakespeare Poem Generator</h1>
     </header>
     <main>
-       <section class="grid grid-2-columns">
-        <div>
-            <img src="images/william shakespeare.png">
-        </div>
-
-        <div>
+        <p class="poem" id="poem"></p>
+        <img src="images/william shakespeare.png" alt="Illustrated portrait of William Shakespeare" class="shakespeare-img">
         <form id="poem-generator-form">
-            <input type="text" placeholder="Enter poem topic" autofocus required autocomplete="off" class="instructions" id="user-instructions">
-        </br></br>
-            <input type="submit" class="submit-button">
+            <input type="text" placeholder="Enter a poem topic (e.g. cheese, dogs, sunshine)" autofocus required autocomplete="off" class="instructions" id="user-instructions">
+            <input type="submit" class="submit-button" id="submit-button">
         </form>
-        <div class="poem" id="poem">
-        </div>
-    </section>
     </main>
-</div>
 </div>
     <footer>
         This AI project was coded by<a href="https://github.com/kelly-okeefe" target="_blank" title="Kellys GitHub Profile">        
