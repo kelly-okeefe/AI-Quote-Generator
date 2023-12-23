@@ -96,3 +96,10 @@ footer {
 .generating {
     animation: blink-animation 1s steps(5, start) infinite;
 }
+
+@media (max-width: 960px) {
+    img {
+        max-width: 250px;
+    }
+    
+}
